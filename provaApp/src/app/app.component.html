@@ -1,10 +1,10 @@
 <form>
-<div>
+<div class = "form-group">
 <label for = "useless">cosa inutile</label>
-<input name = "useless" #useless>
+<input class = "form-control" name = "useless" #useless>
 <br>
 <label for = "spam">spam</label>
-<input name = "spam" #spam>
+<input class = "form-control" name = "spam" #spam>
 
 
 
@@ -15,3 +15,15 @@
 
 
 </form>
+<ul class = "list-group">
+<li class = "list-group-item" *ngFor = "let a of articles">
+    {{a}}
+
+
+
+</li>
+
+
+
+
+</ul>
